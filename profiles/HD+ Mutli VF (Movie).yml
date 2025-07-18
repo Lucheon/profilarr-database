@@ -1,4 +1,4 @@
-name: Best FR Team Multi Audio (Radarr)
+name: HD+ Mutli VF (Movie)
 description: "This profile ranks releases based on the release team and if they contains\
   \ multiple audio tracks.\n\nIt only contains french teams, so the combo french team\
   \ + multi audio gives almost every time VO audio + VFF audio.\n\nFrench teams tier\
@@ -10,7 +10,7 @@ description: "This profile ranks releases based on the release team and if they 
   \ is available. \n\nThis profile does not use HDR, IMAX, Dolby Vision and other\
   \ specifications like these. It only uses teams ranks, since top tier teams deliver\
   \ good enough quality"
-tags: []
+tags: ['radarr']
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 999999
@@ -52,21 +52,11 @@ custom_formats:
   score: -10000
 qualities:
 - id: -1
-  name: 4K-HD
+  name: HD
   description: ''
   qualities:
   - id: 10
     name: Bluray-1080p
-  - id: 3
-    name: Remux-2160p
-  - id: 4
-    name: Bluray-2160p
-  - id: 5
-    name: WEBDL-2160p
-  - id: 6
-    name: WEBRip-2160p
-  - id: 7
-    name: HDTV-2160p
   - id: 8
     name: Remux-1080p
   - id: 9
@@ -75,8 +65,6 @@ qualities:
     name: WEBRip-1080p
   - id: 12
     name: HDTV-1080p
-  - id: 2
-    name: BR-Disk
 - id: -2
   name: SD
   description: ''
@@ -103,5 +91,5 @@ qualities:
     name: Bluray-576p
 upgrade_until:
   id: -1
-  name: 4K-HD
+  name: HD
 language: any

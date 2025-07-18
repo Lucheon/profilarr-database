@@ -1,4 +1,4 @@
-name: NO REMUX - Best FR Team Multi Audio (Sonarr)
+name: 4K Mutli VF (Serie)
 description: "This profile ranks releases based on the release team and if they contains\
   \ multiple audio tracks.\n\nIt only contains french teams, so the combo french team\
   \ + multi audio gives almost every time VO audio + VFF audio.\n\nFrench teams tier\
@@ -10,7 +10,7 @@ description: "This profile ranks releases based on the release team and if they 
   \ is available. \n\nThis profile does not use HDR, IMAX, Dolby Vision and other\
   \ specifications like these. It only uses teams ranks, since top tier teams deliver\
   \ good enough quality"
-tags: []
+tags: ['sonarr']
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 999999
