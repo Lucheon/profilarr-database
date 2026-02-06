@@ -13,7 +13,7 @@ description: "This profile ranks releases based on the release team and if they 
 tags: ['radarr']
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 999999
+upgradeUntilScore: 3100
 minScoreIncrement: 1
 custom_formats:
 - name: RADARR - FR Remux Tier 01
